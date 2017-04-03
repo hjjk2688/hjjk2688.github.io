@@ -195,9 +195,9 @@ header {
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background-image: url(../img/main.jpg);
+    background-image: url("../img/main.jpg");
     
-    color: #fff
+    color: #fff;
 }
 
 header .header-content {
@@ -209,7 +209,8 @@ header .header-content .header-content-inner h1 {
     text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 30px
+    font-size: 30px;
+   
 }
 
 header .header-content .header-content-inner hr {
@@ -218,8 +219,8 @@ header .header-content .header-content-inner hr {
 
 header .header-content .header-content-inner p {
     font-weight: 300;
- /*   color: rgba(255, 255, 255, .7);*/
-    color : black;
+    color: rgba(255, 255, 255, .7);
+    
     font-size: 16px;
     margin-bottom: 50px
 }
